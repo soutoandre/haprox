@@ -18,6 +18,7 @@ install -d "/usr/share/man"/man1
 install -m 644 man/haproxy.1 "/usr/local/share/man"/man1
 ```
 
+```
 [haproxy-2.0.1]# haproxy -vv
 
 HA-Proxy version 2.0.1 2019/06/26 - https://haproxy.org/
@@ -70,3 +71,4 @@ Available filters :
 	[COMP] compression
 	[CACHE] cache
 	[TRACE] trace
+```
