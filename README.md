@@ -9,7 +9,9 @@ yum groupinstall "Development Tools"
 yum install -y inotify-tools wget tar gzip make gcc perl pcre-devel zlib-devel iptables openssl \
 openssl-devel openssl-libs systemd-devel lua-5.3.0 lua-devel-5.3.0
 ```
+Compilar
 
+make -j $(nproc) TARGET=linux-glibc USE_OPENSSL=1 USE_ZLIB=1 USE_LUA=1 USE_PCRE=1 USE_SYSTEMD=1 EXTRA_OBJS="contrib/prometheus-exporter/service-prometheus.o"
 
 ```
 install -d "/usr/sbin"
