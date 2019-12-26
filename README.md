@@ -3,7 +3,7 @@
 ### Install
 
 ```
-yum install -y epel-release http://www.nosuchhost.net/~cheese/fedora/packages/epel-7/x86_64/cheese-release-7-1.noarch.rpm
+yum install -y epel-release  http://www.nosuchhost.net/~cheese/fedora/packages/epel-7/x86_64/cheese-release-7-1.noarch.rpm
 yum update -y
 yum groupinstall "Development Tools"
 yum install -y inotify-tools wget tar gzip make gcc perl pcre-devel zlib-devel iptables openssl \
